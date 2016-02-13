@@ -2,10 +2,18 @@
 		
 		<section class="row">
 			<div class="three columns">		
-				<p> All of the body text</p>
+				<h4> Sidebar</h4>
 			</div>
 			<div class="nine columns">		
-				<p> Nine Columns</p>
+				<?php
+				if ( have_posts() ) {
+					while ( have_posts () ) {
+						the_post();?>
+						<h3> <?php the_title(); ?></h3>
+						<?php the_content();
+					} //end while
+				} // end if
+				?>
 			</div>
 		</section>
 
