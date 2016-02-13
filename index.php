@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title> Web Interactivity and Engagement</title>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body>
 	<h1>Web Interactivity and Engagement</h1>
