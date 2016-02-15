@@ -14,7 +14,7 @@
 				<h2> <?php bloginfo('description'); ?></h2>
 			</div>
 			<div class="three columns">
-
+				
 			</div>	
 		</header>
 		<!-- Add Menu Here -->
