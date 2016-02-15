@@ -2,7 +2,7 @@
      
     <section class="row">
         <div class="two columns">
-            &nbsp;
+            <br/>
         </div>
         <div class="eight columns">
              <?php 
@@ -16,7 +16,7 @@
              ?>
         </div>
         <div class ="two columns">
-            &nbsp;
+            <br/>
         </div>
      </section>
 
